@@ -1,0 +1,20 @@
+ART 167 — Week 12 Responsive Checklist
+Name:Donald Stampley 
+Test widths (PASS/FAIL)
+A) 375px wide (phone)
+  - Nav is easy to tap and not cramped: PASS
+  - Work projects stack or wrap cleanly: PASS
+  - No horizontal scrolling: PASS
+
+B) 768px wide (tablet)
+  - Nav still works and looks clean: PASS
+  - Work projects show 2 columns (if space allows): PASS
+
+C) 1200px wide (desktop)
+  - Text line length stays readable (max-width): PASS
+  - Work projects show 3 columns (if space allows): PASS
+
+Fix log (list at least 2 fixes you made):
+- Fix 1: Added the viewport meta tag to work.html so mobile and tablet breakpoints apply correctly.
+- Fix 1: Added the viewport meta tag to all 4 HTML pages so the responsive layout works correctly on phones and tablets.
+- Fix 2: Adjusted the desktop project card flex-basis/min-width so three project cards fit in one row at 1200px.

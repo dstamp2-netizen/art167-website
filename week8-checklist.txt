@@ -1,0 +1,35 @@
+ART 167 — Week 8 Midterm Checklist
+Name: Donald Stampley
+1) Link test (PASS/FAIL): PASS
+  - From index.html: Home/About/Work/Contact: PASS
+  - From about.html: Home/About/Work/Contact: PASS
+  - From work.html: Home/About/Work/Contact: PASS
+  - From contact.html: Home/About/Work/Contact: PASS
+2) Media test (PASS/FAIL): PASS
+  - index image loads (img/photo-1): PASS
+  - index video plays (media/flower.mp4): PASS
+  - about image loads (img/photo-2): PASS
+  - about SVG loads (img/icon.svg): PASS
+  - about audio plays (media/t-rex-roar.mp3): PASS
+3) Form test (PASS/FAIL): PASS
+  - required fields prevent blank submit: PASS
+  - all inputs have label + id + name: PASS
+4) Table test (PASS/FAIL): PASS
+  - table has caption + thead + tbody: PASS
+  - table uses th scope=col and th scope=row: PASS
+5) CSS test (PASS/FAIL): PASS
+  - styles.css loads on all pages: PASS
+  - nav is horizontal and links still work: PASS
+  - overlay badge appears on index: PASS
+  - .highlight styling shows on about: PASS
+6) Validator (PASS/FAIL): PASS
+  - index.html 0 errors: PASS
+  - about.html 0 errors: PASS
+  - work.html 0 errors: PASS
+  - contact.html 0 errors: PASS
+7) Fix log (list at least 3 fixes you made):
+  - Fix 1: Created the missing file img/icon.svg so the required SVG asset now exists.
+  - Fix 2: Updated about.html to load img/icon.svg instead of img/logo.svg.
+  - Fix 3: Re-tested all pages and corrected the checklist media entry to reflect the fixed SVG path.
+8) One improvement I will focus on next week:
+  - Standardize media file naming to match checklist wording exactly (for example, icon.svg vs logo.svg).

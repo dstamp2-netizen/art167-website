@@ -1,0 +1,37 @@
+ART 167 — Week 10 DevTools Log
+Name: Donald Stampley
+
+A) Elements panel checks
+1) Selected element:
+  - What I clicked on: Navigation link text (<a>), e.g., Home
+  - One CSS rule applied (selector + property): header nav a { padding: 16px 20px; }
+  - Where it comes from (styles.css line/section if you can tell): Week 7 Navigation menu using floats section
+
+2) Box model check (Computed tab)
+  - Element checked: nav <a> link text
+  - Margin/Padding/Border observation: Border is 1px; computed text size is 17px
+
+B) Console panel checks
+3) Any errors? (YES/NO): NO
+  - If YES, copy one error line here: NONE
+  - What it means in plain English: No JavaScript/runtime errors were reported in Console on refresh.
+
+C) Network panel checks
+4) Confirm styles.css loaded (YES/NO): YES
+5) Confirm Google Fonts loaded (YES/NO): YES
+  - If NO, what did you see (404, blocked, wrong link)?: N/A
+
+D) Two fixes I made (required)
+Fix 1:
+ - Problem: Keyboard users had no clear visible focus indicator on nav links.
+ - Found using (Elements/Console/Network): Elements (link state inspection)
+ - File changed: css/styles.css
+ - What I changed: Added header nav a:focus with outline: 2px solid currentColor and outline-offset: 2px.
+ - Verified fix in DevTools (how?): Clicked a nav link, pressed Tab, and confirmed focus outline appears and moves between links.
+
+Fix 2:
+ - Problem: Contact form was missing the phone field and newsletter checkbox from the earlier required form structure
+ - Found using: Elements panel / page inspection
+ - File changed: contact.html
+ - What I changed: Added back the optional phone field and the optional newsletter checkbox
+ - Verified fix in DevTools (how?): Reloaded contact.html and confirmed both fields now appear in the form

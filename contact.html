@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contact</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&family=Zilla+Slab:wght@600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<!-- Site header -->
+	<header>
+		<h1>Contact Donald</h1>
+		<!-- Primary navigation -->
+		<nav>
+			<ul>
+				<li><a class="nav-home" href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a class="nav-work" href="work.html">Work</a></li>
+				<li><a class="nav-contact" href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<!-- Main content -->
+	<main>
+		<section>
+			<h2>Contact Form</h2>
+			<p>
+				Use this form to contact Donald Stampley about class assignments, project feedback, or collaboration ideas.
+			</p>
+
+			<form action="#" method="post">
+				<fieldset>
+					<legend>Your Information</legend>
+					<p>
+						<label for="full-name">Full Name (required)</label><br>
+						<input type="text" id="full-name" name="full-name" required>
+					</p>
+					<small>Please include your first and last name.</small>
+
+					<p>
+						<label for="email">Email (required)</label><br>
+						<input type="email" id="email" name="email" required>
+					</p>
+					<small>I will reply to this address, so double-check spelling.</small>
+
+					<p>
+						<label for="phone">Phone (optional)</label><br>
+						<input type="tel" id="phone" name="phone">
+					</p>
+					<small>If you include a phone number, use digits only.</small>
+
+					<p>
+						<label for="reason">Reason (required)</label><br>
+						<select id="reason" name="reason" required>
+							<option value="" selected disabled>Select a reason</option>
+							<option value="class-question">Question about class work</option>
+							<option value="project-feedback">Feedback on my projects</option>
+							<option value="collaboration">Collaboration opportunity</option>
+						</select>
+					</p>
+				</fieldset>
+
+				<fieldset>
+					<legend>Preferred Contact Method (required)</legend>
+					<p>
+						<input type="radio" id="contact-email" name="preferred-contact-method" value="email" required>
+						<label for="contact-email">Email</label>
+					</p>
+					<p>
+						<input type="radio" id="contact-phone" name="preferred-contact-method" value="phone">
+						<label for="contact-phone">Phone</label>
+					</p>
+				</fieldset>
+
+				<p>
+					<input type="checkbox" id="newsletter" name="newsletter" value="yes">
+					<label for="newsletter">Yes, send me updates (optional)</label>
+				</p>
+
+				<fieldset>
+					<legend>Your Message</legend>
+					<p>
+						<label for="message">Message (required)</label><br>
+						<textarea id="message" name="message" rows="5" required></textarea>
+					</p>
+					<small>Share key details so I can give a useful response.</small>
+				</fieldset>
+
+				<p>
+					<button type="submit">Send Message</button>
+				</p>
+			</form>
+		</section>
+
+		<section>
+			<h2>Response Availability</h2>
+			<p>
+				I typically respond within 24 to 48 hours during the school week. The best days to reach me are
+				<strong>Monday through Thursday</strong>, as Fridays and weekends may see slower replies.
+			</p>
+			<p>
+				For the fastest response, use the form above and select the reason that best matches your message.
+				If you are contacting me about a class assignment or project feedback, please include the project
+				name or assignment number so I can give a more useful reply.
+			</p>
+			<p>
+				I am most available to discuss:
+			</p>
+			<ul>
+				<li>Questions about ongoing class projects</li>
+				<li>Feedback on design choices or layout decisions</li>
+				<li>Collaboration ideas related to art, design, or media</li>
+			</ul>
+			<p>
+				I am a full-time student, so response times during finals weeks or project deadlines may be
+				longer than usual. I appreciate your patience.
+			</p>
+		</section>
+	</main>
+
+	<!-- Site footer -->
+	<footer>
+		<p>&copy; 2026 Gaming Site</p>
+	</footer>
+</body>
+</html>
+
